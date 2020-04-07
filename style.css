@@ -84,7 +84,24 @@ footer{
     justify-content: space-evenly;
 }
 
-.footer-left i{
+.footer-left .wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    display: flex;
+    align-self: flex-end;
+}
+
+.legenda{
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-left i, p{
     color: white;
 }
 
