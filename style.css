@@ -33,10 +33,6 @@ main{
     /* background-color: lightblue; */
 }
 
-main {
-    height: calc(100vh - 130px);
-}
-
 .galleria-persone{
     display: flex;
     flex-wrap: wrap;
@@ -88,17 +84,15 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    height: 100%;
+    position: relative;
 }
 
 p{
-    display: flex;
-    align-self: flex-end;
-}
-
-.legenda{
-    display: flex;
-    align-items: flex-end;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 1px;
 }
 
 .footer-left i, p{
