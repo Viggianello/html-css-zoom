@@ -80,7 +80,7 @@ footer{
     justify-content: space-evenly;
 }
 
-.footer-left .wrap{
+.wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,16 +92,19 @@ footer{
 p{
     white-space: nowrap;
     position: absolute;
-    bottom: 1px;
+    bottom: 2px;
 }
 
-.footer-left i, p{
+i, p{
     color: white;
 }
 
 .footer-center{
     width: 1200px;
-    background-color: orange;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .footer-right{
