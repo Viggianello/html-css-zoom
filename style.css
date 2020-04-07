@@ -30,7 +30,25 @@ header button{
 
 main{
     height: calc(100vh - 130px);
-    /* background-color: lightblue; */
+    position: relative;
+}
+
+.text-center{
+    color: white;
+    position: absolute;
+    top: 50%;
+}
+
+.right{
+    right:0;
+}
+
+.green{
+    background-color: green;
+}
+
+.text-center i{
+    color: grey;
 }
 
 .galleria-persone{
@@ -101,7 +119,6 @@ i, p{
 
 .footer-center{
     width: 1200px;
-    /* background-color: orange; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
