@@ -9,6 +9,10 @@
     height: auto;
 }
 
+i{
+    cursor: pointer;
+}
+
 body{
     background-color: black;
 }
@@ -41,14 +45,19 @@ main{
 
 .right{
     right:0;
+    padding-right: 2px;
 }
 
 .green{
     background-color: green;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: black;
 }
 
 .text-center i{
     color: grey;
+    padding-bottom: 10px;
 }
 
 .galleria-persone{
@@ -84,7 +93,6 @@ main{
 
 footer{
     height: 80px;
-    /* background-color: lightcoral; */
     display: flex;
     justify-content: space-between;
 }
@@ -93,7 +101,6 @@ footer{
     flex-shrink: 0;
     width: 200px;
     display: flex;
-    /* background-color: red; */
     align-items: center;
     justify-content: space-evenly;
 }
@@ -111,6 +118,7 @@ p{
     white-space: nowrap;
     position: absolute;
     bottom: 2px;
+    font-size: 15px;
 }
 
 i, p{
